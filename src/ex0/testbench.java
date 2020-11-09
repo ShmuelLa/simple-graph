@@ -1,7 +1,5 @@
 package ex0;
 
-import java.awt.datatransfer.ClipboardOwner;
-import java.sql.Array;
 import java.util.*;
 
 public class testbench {
@@ -70,7 +68,5 @@ public class testbench {
 
         List<node_data> li1 = ga1.shortestPath(1,0);
         System.out.println(li1);
-
-        ga1.shortestPath(1,0).forEach(node_data -> System.out.print(node_data.getKey()+" "));
     }
 }
