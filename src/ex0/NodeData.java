@@ -30,10 +30,9 @@ public class NodeData implements node_data {
     }
 
     /**
-     * Return the key (id) associated with this node.
-     * each node_data have a unique key.
+     * Return the node ID, each node_data have a unique key.
      *
-     * @return
+     * @return The int key (id) associated with this node.
      */
     @Override
     public int getKey() {
