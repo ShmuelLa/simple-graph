@@ -15,7 +15,7 @@ public class Graph_Algo implements graph_algorithms {
     private graph _graph = new Graph_DS();
 
     /**
-     * Initialize the the graph on which this set of algorithms operates on by pointing a Graph_DS object.
+     * Initialize the graph on which this set of algorithms operates on by pointing a Graph_DS object.
      *
      * @param g - The graph to initialize
      */
